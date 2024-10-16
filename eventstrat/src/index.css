@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;250;300;350;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.google.com/share?selection.family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.BackgroundShadow3{
+  position: absolute;
+  top: 500px;
+  left: 700px;
+  width: 500px;
+  opacity: 0.60;
+  background: #055562;
+  box-shadow: 0px 0px 100px 80px #055562;
+  border-radius: 289.20px;
+  z-index: 30;
+  margin-top: 10px;
+}
+
+.BackgroundShadow4{
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 500px;
+  opacity: 0.60;
+  background: #14105E;
+  box-shadow: 0px 0px 100px 80px #14105E;
+  border-radius: 289.20px;
+  z-index: 30;
+  margin-top: 10px;
+}
+
+.line-height-tight {
+    line-height: 1.0; /* adjust the value to your liking */
+  }
+
+.nav-item {
+margin-left: 1.25rem;
+position: relative;
+}
+
+@media (min-width: 768px) {
+.nav-item {
+    margin-right: 0.75rem;
+}
+}
+
+@media (min-width: 1024px) {
+.nav-item {
+    margin-right: 1rem;
+}
+}
+
+@media (min-width: 1280px) {
+.nav-item {
+    margin-right: 1.25rem;
+}
+}
+
+.LinkDialog {
+    width: 204.45px;
+    height: 50px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 31.80px;
+    border: 2px white solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .RequestDemo {
+    margin-top: 2px;
+    width: 140.65px;
+    height: 21px;
+    color: white;
+    font-size: 17.86px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 18px;
+    word-wrap: break-word;
+  }
+  
+  .Link {
+    width: 223.36px;
+    height: 50px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 31.80px;
+    background: #ED483E;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .SignUpForFree {
+    width: 159.56px;
+    height: 21px;
+    text-align: center;
+    color: white;
+    font-size: 17.58px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 18px;
+    word-wrap: break-word;
+  }

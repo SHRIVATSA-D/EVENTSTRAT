@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/styles/globals.css */
+:root {
+    --primary-color: white;  /* Default primary color */
+    --secondary-color: #61B85A;  /* Default secondary color */
+  }
+  
+  /* Use CSS variables in Tailwind */
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+  
+  .secondary {
+    color: var(--secondary-color);
+  }
+  
